@@ -1,0 +1,23 @@
+# Core LLM / OpenAI
+openai>=1.30.0
+
+# LangGraph + LangChain (multi-agent orchestration)
+langgraph>=0.2.0
+langchain-openai>=0.1.0
+langchain-core>=0.2.0
+
+# LangChain agents (create_agent replaces create_react_agent from langgraph.prebuilt)
+langchain>=1.0.0
+
+# Azure identity (required by langchain-openai + Azure OpenAI)
+azure-identity>=1.16.0
+
+# SQL Server connectivity
+pyodbc>=5.0.0
+
+# Speech recognition + audio capture
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+
+# Azure Speech SDK (used for Azure STT engine with keyless Entra auth)
+azure-cognitiveservices-speech>=1.38.0
